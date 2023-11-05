@@ -31,3 +31,12 @@ int main()
 		std::cout << "catch: " << e << std::endl;
 	}
 }
+
+/* 
+❯ cd src/12.delegateConstructor
+❯ clang++ 12-11.cpp -o 12-11.out -std=c++11
+❯ ./12-11.out
+catch: 1
+catch: 2
+catch: 3
+ */

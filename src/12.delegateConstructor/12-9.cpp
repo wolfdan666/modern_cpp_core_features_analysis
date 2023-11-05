@@ -22,3 +22,10 @@ int main()
 	catch (...) {
 	}
 }
+
+/* 
+cd src/12.delegateConstructor 
+clang++ 12-9.cpp -o 12-9.out -std=c++11
+./12-9.out           
+~X()
+ */
