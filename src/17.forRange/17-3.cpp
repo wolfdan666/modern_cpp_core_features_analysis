@@ -55,3 +55,19 @@ int main()
 		std::cout << e << std::endl;
 	}
 }
+
+/* 
+❯ cd src/17.forRange
+❯ clang++ 17-3.cpp -o 17-3.out -std=c++11
+❯ ./17-3.out
+1
+3
+5
+7
+9
+0
+0
+0
+0
+0
+ */
