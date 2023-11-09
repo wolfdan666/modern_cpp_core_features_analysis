@@ -40,3 +40,9 @@ int main()
 	x3 = 78;
 	std::cout << bt3.a << std::endl;
 }
+
+/* 
+❯ clang++ 20-11.cpp -o 20-11.out -std=c++17
+❯ ./20-10.out
+78
+ */
