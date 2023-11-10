@@ -1,5 +1,6 @@
 #include <iostream>
-#include <type_traits
+#include <type_traits>
+
 struct X {
     X() {}
     X(X&&) noexcept {}
